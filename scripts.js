@@ -27,3 +27,25 @@ iPhone8S.printInfo();
 
 Sony.priceColor();
 Samsung.priceColor();
+
+
+
+function Car(mark, price, year, color, engine) {
+    this.mark = mark;
+    this.price = price;
+    this.year = year;
+    this.color = color;
+    this. engine = engine;
+}
+
+Car.prototype.showProperties = function() {
+    console.log("The car mark is " + this.mark + ", the price is $" + this.price + ", the year production is " +this.year + ", color is " + this.color + ", and the engine is " + this.engine + ".");
+};
+
+var Punto = new Car("Fiat", 5854, 2010, "gold", "1.6");
+var Golf = new Car("Volkswagen", 2200, 2005, "green", "1.8");
+var S40 = new Car("Volvo", 5800, 2012, "silver", 1.8);
+
+Punto.showProperties();
+Golf.showProperties();
+S40.showProperties();
