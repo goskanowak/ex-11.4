@@ -14,19 +14,19 @@ Phone.prototype.priceColor = function () {
 }
 
 var iPhone6S = new Phone("Apple", 2250, "silver", 250);
-var Sony = new Phone("Android", 550, "black", 200);
+var sony = new Phone("Android", 550, "black", 200);
 var iPhone8G = new Phone("Apple", 4250, "gold", 180);
-var Samsung = new Phone("Android", 2250, "silver", 215);
+var samsung = new Phone("Android", 2250, "silver", 215);
 var iPhone8S = new Phone("Apple", 250, "silver", 195);
 
 iPhone6S.printInfo();
-Sony.printInfo();
+sony.printInfo();
 iPhone8G.printInfo();
-Samsung.printInfo();
+samsung.printInfo();
 iPhone8S.printInfo();
 
-Sony.priceColor();
-Samsung.priceColor();
+sony.priceColor();
+samsung.priceColor();
 
 
 
@@ -42,10 +42,10 @@ Car.prototype.showProperties = function() {
     console.log("The car mark is " + this.mark + ", the price is $" + this.price + ", the year production is " +this.year + ", color is " + this.color + ", and the engine is " + this.engine + ".");
 };
 
-var Punto = new Car("Fiat", 5854, 2010, "gold", "1.6");
-var Golf = new Car("Volkswagen", 2200, 2005, "green", "1.8");
-var S40 = new Car("Volvo", 5800, 2012, "silver", 1.8);
+var punto = new Car("Fiat", 5854, 2010, "gold", "1.6");
+var golf = new Car("Volkswagen", 2200, 2005, "green", "1.8");
+var s40 = new Car("Volvo", 5800, 2012, "silver", 1.8);
 
-Punto.showProperties();
-Golf.showProperties();
-S40.showProperties();
+punto.showProperties();
+golf.showProperties();
+s40.showProperties();
